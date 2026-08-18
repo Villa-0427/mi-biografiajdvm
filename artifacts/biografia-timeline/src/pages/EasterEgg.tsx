@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link } from 'wouter';
 import { useState, useEffect } from 'react';
 
 export default function EasterEgg() {
@@ -68,7 +68,7 @@ export default function EasterEgg() {
                 </div>
             </div>
 
-            {/* La Cucaracha voladora */ }
+            {/* La Cucaracha voladora */}
             <img
                 src="https://media.tenor.com/H47fjXyFxDoAAAAM/roach-dance.gif"
                 alt="Cucaracha bailando"
@@ -84,7 +84,7 @@ export default function EasterEgg() {
 
             {/* Botón de Volver (Fijo en la esquina inferior izquierda) */}
             <Link
-                to="/"
+                href="/"
                 className="absolute bottom-5 left-5 z-30 inline-block bg-white/20 hover:bg-white/30 transition-all transform hover:scale-105 py-2 px-4 rounded-xl text-white font-semibold shadow-md"
             >
                 ⬅ Volver

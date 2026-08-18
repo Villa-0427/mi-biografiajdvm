@@ -305,12 +305,11 @@ function Home() {
                           Los Gustos son siempre una esclavitud más grande que los disgustos
                       </p>
 
-                      {/* 🥚 EASTER EGG - Botón huevo */}
-                      <a href="http://localhost:5173/secreto">
+                      <Link href="/secreto">
                           <button className="mt-3 w-8 h-10 rounded-full bg-amber-100/30 hover:bg-amber-100/60 border border-amber-300/30 hover:border-amber-300/60 text-amber-700/50 hover:text-amber-700/80 transition-all flex items-center justify-center text-sm shadow-sm hover:shadow-md">
                               🥚
                           </button>
-                      </a>
+                      </Link>
                   </div>
 
                   <div className="divide-y divide-foreground/15 border-y border-foreground/15">
