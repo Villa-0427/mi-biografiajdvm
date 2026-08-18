@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Mi Biografía"
+description = "Una página web personal y narrativa para presentar una biografía a través de una línea del tiempo visual, hitos destacados y una sección de contacto."
+version = "1.0.0"
+id = "artifacts/biografia-timeline"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 23347
+
+[services.development]
+run = "pnpm --filter @workspace/biografia-timeline run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/biografia-timeline", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/biografia-timeline/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "23347"
+BASE_PATH = "/"

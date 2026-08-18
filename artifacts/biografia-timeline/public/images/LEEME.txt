@@ -1,0 +1,9 @@
+Coloca aquí tus imágenes personales.
+
+Ejemplo:
+1. Copia una foto en esta carpeta.
+2. Llámala retrato.jpg.
+3. Abre src/data/biografia.ts.
+4. Cambia imagen: '' por imagen: 'images/retrato.jpg'.
+
+Usa nombres sencillos, sin espacios ni tildes.
