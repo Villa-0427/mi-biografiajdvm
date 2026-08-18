@@ -72,9 +72,9 @@ function Home() {
           </a>
 
           <nav className="hidden items-center gap-8 md:flex" aria-label="Navegación principal">
-            <a href="#historia" className="nav-link font-mono-ui text-[11px] uppercase tracking-[0.15em] text-muted-foreground" data-testid="link-historia">Historia</a>
+            <a href="#historia" className="nav-link font-mono-ui text-[11px] uppercase tracking-[0.15em] text-muted-foreground" data-testid="link-historia">Introducción</a>
             <a href="#hitos" className="nav-link font-mono-ui text-[11px] uppercase tracking-[0.15em] text-muted-foreground" data-testid="link-hitos">Hitos</a>
-            <a href="#principios" className="nav-link font-mono-ui text-[11px] uppercase tracking-[0.15em] text-muted-foreground" data-testid="link-principios">Principios</a>
+            <a href="#principios" className="nav-link font-mono-ui text-[11px] uppercase tracking-[0.15em] text-muted-foreground" data-testid="link-principios">Gustos</a>
             <a href="#contacto" className="group flex items-center gap-2 rounded-full border border-foreground/20 px-4 py-2 font-mono-ui text-[11px] uppercase tracking-[0.15em] transition-colors hover:border-accent hover:text-accent" data-testid="link-contacto">
               Conversemos <ArrowUpRight size={14} className="transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
             </a>
